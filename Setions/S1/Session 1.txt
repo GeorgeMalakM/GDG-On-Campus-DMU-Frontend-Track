@@ -1,7 +1,0 @@
-Videos:
-https://youtu.be/qfPUMV9J5yw?si=-ojkupl-2Lb085jp
-https://youtu.be/HD13eq_Pmp8?si=Xop7voh5YiU8UASu
-
-Reading ( Recommended ):
-https://www.w3schools.com/html/default.asp
-https://developer.mozilla.org/en-US/docs/Web/HTML

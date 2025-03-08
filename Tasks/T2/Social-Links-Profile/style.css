@@ -1,15 +1,17 @@
-*{
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
     scroll-behavior: smooth;
     font-family: 'Inter', sans-serif;
 }
-body{
-    background-color:hsl(0, 0%, 8%);
-    color: white; 
+
+body {
+    background-color: hsl(0, 0%, 8%);
+    color: white;
     min-height: 100vh;
     align-content: center;
+
     a {
         color: honeydew;
         background-color: hsl(0, 3%, 25%);
@@ -19,7 +21,8 @@ body{
         font-weight: 600;
     }
 }
-.profile{
+
+.profile {
     background-color: hsl(0, 0%, 12%);
     max-width: 30%;
     padding: 35px 15px;
@@ -29,31 +32,36 @@ body{
     align-items: center;
     margin: 0 auto;
     text-align: center;
+
     img {
-        max-width:25%;
+        max-width: 25%;
         border-radius: 50%;
         margin-bottom: 15px;
     }
-    .name{
+
+    .name {
         font-size: 24px;
         margin-bottom: 10px;
         color: ivory;
     }
-    .add{
+
+    .add {
         color: rgb(163, 196, 0);
         font-weight: 700;
         margin-bottom: 20px;
     }
-    .detail{
+
+    .detail {
         color: hsl(0, 2%, 52%);
     }
-    
+
     .links {
         display: flex;
         flex-direction: column;
         margin-top: 20px;
         gap: 10px;
         width: 100%;
+
         a {
             width: 80%;
             text-align: center;
@@ -61,8 +69,9 @@ body{
             margin: 0 auto;
             transition: 250ms;
         }
+
         a:hover {
-            color: var(--Grey-900);
+            color: hsl(0, 0%, 8%);
             background-color: hsl(351, 61%, 30%);
         }
     }

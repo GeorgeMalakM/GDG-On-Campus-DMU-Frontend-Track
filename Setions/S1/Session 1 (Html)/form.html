@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div>
+
+        <form action="" method="GET" autocomplete="on" target="_blank" novalidate enctype="multipart/form-data">
+
+            <label for="text">Text:</label>
+            <input value="500" type="text" id="text" name="text" placeholder="Enter text" required minlength="3"
+                maxlength="20">
+
+            <br><br>
+
+            <fieldset>
+
+                <legend>
+                    Email - Password
+                </legend>
+
+                <label for="email">Email:</label>
+                <input autofocus type="email" id="email" name="email" required>
+
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" required>
+
+                <br><br>
+            </fieldset>
+
+            <label for="number">Number:</label>
+            <input type="number" id="number" name="number" min="1" max="100">
+
+            <br><br>
+
+            <label for="tel">Telephone:</label>
+            <input type="tel" id="tel" name="tel" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" placeholder="123-456-7890">
+
+            <br><br>
+
+            <label for="url">URL:</label>
+            <input value="http/no-change.com" readonly type="url" id="url" name="url">
+
+            <br><br>
+
+            <label for="date">Date:</label>
+            <input type="date" id="date" name="date">
+
+            <br><br>
+
+            <label for="datetime">Datetime:</label>
+            <input type="datetime-local" id="datetime" name="datetime">
+
+            <br><br>
+
+            <label for="time">Time:</label>
+            <input type="time" id="time" name="time">
+
+            <br><br>
+
+            <label for="week">Week:</label>
+            <input type="week" id="week" name="week">
+
+            <br><br>
+
+            <label for="month">Month:</label>
+            <input type="month" id="month" name="month">
+
+            <br><br>
+
+            <label for="color">Color:</label>
+            <input type="color" id="color" name="color">
+
+            <br><br>
+
+            <label for="checkbox">Checkbox:</label>
+            <input type="checkbox" id="checkbox" name="checkbox" value="checked">
+
+            <br><br>
+
+            <label for="radio1">Radio 1:</label>
+            <input type="radio" id="radio1" name="radio" value="option1" checked>
+            <label for="radio2">Radio 2:</label>
+            <input type="radio" id="radio2" name="radio" value="option2">
+
+            <br><br>
+
+            <label for="range">Range:</label>
+            <input type="range" id="range" name="range" min="0" max="100" oninput="output.value = range.value">
+            <output name="output" id="output">50</output><br><br>
+
+            <br><br>
+
+            <label for="file">File:</label>
+            <input type="file" id="file" name="file" accept="image/*">
+
+            <br><br>
+
+            <label for="search">Search:</label>
+            <input type="search" id="search" name="search" placeholder="Search something...">
+
+            <br><br>
+
+            <label for="hidden">Hidden:</label>
+            <input type="hidden" id="hidden" name="hidden" value="secret">
+
+            <br><br>
+
+            <label for="select">Select:</label>
+            <select id="select" name="select">
+                <optgroup label="Group 1">
+                    <option value="option1">Option 1</option>
+                    <option value="option2">Option 2</option>
+                </optgroup>
+                <optgroup label="Group 2">
+                    <option value="option3">Option 3</option>
+                    <option value="option4">Option 4</option>
+                </optgroup>
+                <option value="option5">Option 5</option>
+            </select>
+
+            <br><br>
+
+            <label for="textarea">Textarea:</label>
+            <textarea id="textarea" name="textarea" rows="4" cols="50" placeholder="Enter text..."></textarea>
+
+            <br><br>
+
+            <button disabled type="submit">Submit</button>
+            <button type="reset">Reset</button>
+        </form>
+
+    </div>
+</body>
+
+</html>

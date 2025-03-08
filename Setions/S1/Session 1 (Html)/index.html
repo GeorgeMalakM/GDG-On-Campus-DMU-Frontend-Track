@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- The <!DOCTYPE html> declaration defines this document as an HTML5 document.
+    The <html> tag represents the root element of the HTML document.
+    The 'lang="en"' attribute specifies the language of the document as English. -->
+
+<head>
+    <!-- The <head> element contains meta-information about the document, such as its title, character encoding, and viewport settings. -->
+    <meta charset="UTF-8">
+    <!-- The <meta charset="UTF-8"> tag specifies the character encoding for the document as UTF-8,
+        which supports most characters from various languages, ensuring proper text display. -->
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- The <meta name="viewport"> tag helps control the page's layout on mobile devices.
+        'width=device-width' sets the width of the viewport to match the device's screen width.
+        'initial-scale=1.0' ensures the initial zoom level is set to 100%. -->
+
+    <meta name="description" content="This is a sample HTML document.">
+    <!-- The <meta name="description"> tag provides a brief description of the document's content.
+        This description may be used by search engines when displaying search results. -->
+
+
+    <!-- Css Code -->
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+    </style>
+
+    <!-- Link tag to link styling -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Page Icon -->
+    <link rel="icon" type="image/x-icon" href="./imgs/img.png">
+
+    <title>Html First Session</title>
+    <!-- The <title> element defines the title of the document.
+        This title appears on the browser tab and is also used as the name when the page is bookmarked. -->
+</head>
+
+<!--  The <body> tag represents the main content of the HTML document. -->
+
+<body>
+    <!-- How To COMMENT -->
+    <!-- Write your comments here -->
+
+    <!-- <TagName attributes="values" > Content</TagName> -->
+    <div title="Test">
+        Hello Friend
+    </div>
+
+    <!-- 2 html tags type [ closed tags , self-closing tags ] -->
+
+    <!-- error -->
+    <!-- <h1 ahmed /> -->
+
+    <!-- Correct -->
+    <h1>
+        Ahmed
+    </h1>
+
+    <!-- self-closing tag -->
+    <img width="100px" height="100px" src="imgs/signup.png">
+
+    <!-- Inline VS Block Element [src: "https://www.w3schools.com/html/html_blocks.asp"] -->
+    <!-- Block: new line, full width  -->
+    <p>Block</p>
+    <p>Block2</p>
+    <!-- <div>
+        block 3
+    </div> -->
+
+    <!-- Inline: no new line, needed width -->
+    <button>Hello World</button>
+    <span>Hello World</span>
+
+    <!-- div as container / divider + style attribute  + class + id -->
+    <div class="main-dev" id="number-one-div" style="background-color: green;">
+
+        <h1>
+            Ahmed Algrgawy
+        </h1>
+
+        <p>
+            Html Session
+        </p>
+
+        <img src="imgs/signup.png" width="50px">
+    </div>
+
+
+    <!-- ========================================================================== -->
+
+    <!-- The Main Session Starts -->
+
+    <!-- Heading , paragraph (span) , quote, Formatting, anchor tag -->
+    <div>
+
+        <!-- headings -->
+        <h1>Hello, World!</h1>
+        <h2>Hello, World!</h2>
+        <h3>Hello, World!</h3>
+        <h4>Hello, World!</h4>
+        <h5>Hello, World!</h5>
+        <h6>Hello, World!</h6>
+
+        <!-- paragraph -->
+
+        <p>
+            First paragraph
+        </p>
+
+        <p>
+            Seconde paragraph
+
+            <br />
+            <br />
+
+
+            <!-- bold -->
+            <b>Ahmed</b>
+            <strong>Ahmed 2</strong>
+
+            <br />
+            <br />
+
+            <i>TEST</i>
+            <em>Ahmed</em>
+
+            <br />
+            <br />
+
+            <mark style="background-color: aqua;">Mark</mark>
+
+            <br />
+            <br />
+
+            <u>line under all text</u>
+
+            <br />
+            <br />
+
+            <del>
+                50
+            </del>
+
+            <br />
+            <br />
+
+            <span>
+                10
+            </span>
+
+            <br />
+            <br />
+
+            <span>This is <sup>superscripted</sup> text.</span>
+
+            <hr />
+
+            <span>This is <sub>subscripted</sub> text.</span>
+        </p>
+
+        <q>
+            For 60 years, WWF has worked to help people and nature thrive. As the world's leading conservation
+            organization, WWF works in nearly 100 countries. At every level, we collaborate with people around the
+            world to develop and deliver innovative solutions that protect communities, wildlife, and the places in
+            which they live.
+        </q>
+
+        <!-- Links -->
+        <a href="https://www.google.com/" target="_blank" title="Link Num 1">
+            Goggle Link
+        </a>
+        <a href=" mailto:ahmed@gmail.com" target="_blank" title="Link Num 1">
+            Email
+        </a>
+
+        <a href="test.html">
+            Test Page
+        </a>
+
+        <!-- Special Characters [src:"https://www.w3schools.com/html/html_entities.asp", "https://www.w3schools.com/html/html_symbols.asp", "https://www.w3schools.com/html/html_emojis.asp"] -->
+        <p>
+            &yen;
+            &#169;
+            &#174;
+            &#8719;
+            &#8712;
+            &#128514;
+            &#128515;
+        </p>
+
+    </div>
+
+    <!--  Lists [ Ordered , unOrder, Description] , Tables -->
+    <div>
+        <ol start="4" reversed type="I">
+            <li>
+                Item 1
+            </li>
+            <li>
+                Item 2
+            </li>
+
+            <li>
+                Item 3
+            </li>
+        </ol>
+
+        <br />
+        <br />
+
+        <ul>
+            <li>
+                Item 1
+            </li>
+            <li>
+                Item 2
+            </li>
+
+            <li>
+                Item 3
+            </li>
+        </ul>
+
+        <br />
+        <br />
+
+        <table style="width:100%">
+            <caption>
+                Session Table
+            </caption>
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>age</th>
+                    <th>job</th>
+                </tr>
+
+            </thead>
+
+            <tbody>
+
+                <!--                 
+                <caption>
+                    Session Table
+                </caption> -->
+
+                <tr>
+                    <td>
+                        Ahmed 1
+                    </td>
+                    <td>
+                        15
+                    </td>
+                    <td>
+                        Web
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        Ahmed 2
+                    </td>
+                    <td>
+                        15
+                    </td>
+                    <td>
+                        Web
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        Ahmed 3
+                    </td>
+                    <td>
+                        15
+                    </td>
+                    <td>
+                        Web
+                    </td>
+                </tr>
+
+            </tbody>
+
+            <tfoot>
+                <tr>
+                    <td>
+                        Total
+                    </td>
+                    <td>
+                        bad
+                    </td>
+                    <td>
+                        well
+                    </td>
+                </tr>
+            </tfoot>
+        </table>
+
+        <table>
+            <tr>
+                <th>Firstname</th>
+                <th>Lastname</th>
+                <th>Age</th>
+            </tr>
+            <tr>
+                <td>Jill</td>
+                <td>Smith</td>
+                <td>50</td>
+            </tr>
+            <tr>
+                <td>Eve</td>
+                <td>Jackson</td>
+                <td>94</td>
+            </tr>
+        </table>
+
+    </div>
+
+    <!-- Imgs , Picture, Svg, Videos, Audios  -->
+    <div>
+
+        <img src="./imgs/signup.png" alt="When img is unavailable i appears" width="300px" height="300px">
+
+        <picture>
+            <source media="(min-width: 465px)" srcset="./imgs/img.png">
+            <img src="./imgs/signup.png" style="width:auto;">
+        </picture>
+
+        <svg width="100" height="100">
+            <circle cx="50" cy="50" r="40" stroke="green" stroke-width="4" fill="yellow" />
+        </svg>
+
+
+        <!-- <Video width="50%" controls autoplay muted poster="./imgs/img.png">
+            <source src="./videos/Tasks.mkv" type="video/mkv">
+            <source src="./videos/Tasks.mp4" type="video/mp4">
+            Your browser does not support HTML video.
+        </Video> -->
+
+        <!-- <audio controls autoplay loop muted>
+            <source src="112.mpeg" type="audio/mpeg">
+            <source src="112.mp3" type="audio/mp3">
+            Your browser does not support the audio element.
+        </audio> -->
+
+        <!-- <iframe width="420" height="315" src=" https://www.youtube.com/embed/LSexY0StKgA?controls=0">
+        </iframe> -->
+
+    </div>
+
+    <!-- Forms , select , Radio -->
+    <div>
+        <a href="form.html">
+            Form Page
+        </a>
+    </div>
+
+    <!-- Semantic Elements -->
+    <!-- A semantic element clearly describes its meaning to both the browser and the developer. -->
+    <div>
+
+        <img src="./imgs/sem_elements.gif" alt="" width="20%">
+
+        <a href="semantic.html">
+            Semantic Elements
+        </a>
+
+    </div>
+
+
+    <!-- Js Code  -->
+    <script>
+        console.log("Hello, World!");
+    </script>
+
+
+</body>
+
+</html>
+<!-- Closing the <html> tag marks the end of the HTML document. -->

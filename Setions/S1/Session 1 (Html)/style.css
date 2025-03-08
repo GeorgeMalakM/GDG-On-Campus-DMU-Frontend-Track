@@ -1,0 +1,34 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    padding: 10px;
+    /* display: flex; */
+    /* flex-direction: column; */
+    gap: 30px;
+}
+
+div,
+.big {
+    background-color: #eee;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+table,
+th,
+td {
+    border: 1px solid black;
+    text-align: center;
+}
+
+td {
+    background-color: #96D4D4;
+}

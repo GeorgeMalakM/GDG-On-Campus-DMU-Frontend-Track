@@ -32,6 +32,7 @@ body {
         width: 100%;
         gap: 15px;
         .card{
+            box-shadow: -10px 15px 20px 5px rgb(102, 82, 62);
             background-color: hsl(0, 1%, 38%);
             padding: 15px;
             border-radius: 25px;
@@ -84,6 +85,7 @@ body {
     }
     .card:hover {
         background-color: hsl(0, 2%, 66%);
+        box-shadow: -10px 15px 20px 5px rgba(114, 107, 107, 0.3);
         .imgD img {
             border-radius: 25px;
             scale: 1.0999999999999999;

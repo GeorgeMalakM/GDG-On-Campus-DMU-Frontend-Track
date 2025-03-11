@@ -1,12 +1,20 @@
-# Sepcial Repo to solve tasks
+# Special Repo to solve tasks
 
-- GDG On Campus DMU Frontend Track
+Welcome to the **GDG On Campus DMU Frontend Track** repository! This special repository is dedicated to solving tasks and enhancing your frontend development skills. Dive into the tasks below and start building amazing web projects!
 
-## Task 1 :
+Happy coding! 🚀
 
-- [Simple Web page HTML](Tasks/T1/)
+## Task List
 
-## Task 2 :
+### Task 1: Simple Web Page HTML
+- [View Task](Tasks/T1/)
 
-- [Social Links](Tasks/T2/Social-Links-Profile/)
-- [Recipe Web page](Tasks/T2/Recipe-Page/)
+### Task 2: Social Links & Recipe Web Page
+- [Social Links Profile](Tasks/T2/Social-Links-Profile/)
+- [Recipe Web Page](Tasks/T2/Recipe-Page/)
+
+### Task 3: House Coffee
+- [View Task](Tasks/T3/)
+- ![Web Preview](Tasks/T3/Web_photo.png)
+
+Let's create something awesome together! 🌟

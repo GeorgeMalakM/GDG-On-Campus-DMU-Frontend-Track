@@ -1,0 +1,436 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: 'Poppins', sans-serif;
+
+    a {
+        text-decoration: none;
+        color: black;
+    }
+}
+
+:root {
+    --margin-font-color: #484848;
+    --green: #68BF94;
+    --black: #000000;
+    --white: #FFFFFF;
+    --gray: #F2F2F2;
+    --Dark-gray: #C3C3C4;
+}
+
+.maxw {
+    max-width: 1350px;
+    margin: 0 auto;
+}
+
+section:not(:first-child) {
+    margin-top: 5rem;
+    padding: 0rem 2rem;
+}
+
+section:last-child {
+    margin-bottom: 5rem;
+}
+
+.Title {
+    margin-bottom: 2.5rem;
+}
+
+/* Header */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5rem 5rem;
+    background-color: var(--white);
+
+    .logo {
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+
+        img {
+            width: 40px;
+            height: auto;
+        }
+    }
+
+    .navBar {
+        display: flex;
+        align-items: center;
+        gap: 3rem;
+
+        .menu {
+            display: flex;
+            gap: 2rem;
+            list-style: none;
+            margin: 0;
+            padding: 0;
+
+            li a {
+                text-decoration: none;
+                color: var(--margin-font-color);
+                transition: color 300ms;
+            }
+
+            li a:hover {
+                color: var(--black);
+            }
+        }
+        .social {
+            display: flex;
+            gap: 1rem;
+            a {
+                color: var(--Dark-gray);
+                font-size: 1.5rem;
+                transition: color 150ms;
+                width: 10px;
+                height: 10px;
+            }
+            a:hover {
+                color: var(--gray);
+                background-color: aliceblue;
+            
+            }
+        }
+    }
+}
+
+/* First Section */
+.fSection {
+    display: flex;
+    flex-direction: column;
+
+    .fbackground {
+        display: flex;
+        background-color: var(--black);
+
+        .fDetails {
+            color: var(--white);
+            align-content: center;
+            margin: 0 auto;
+            padding: 5rem 2.5rem;
+
+            .fTitle {
+                font-size: 3rem;
+                font-weight: 700;
+            }
+
+            .fSimpleMargin {
+                margin-top: 1rem;
+                margin-bottom: 0.5rem;
+            }
+
+            .fGreenMargin,
+            a {
+                color: var(--green);
+                margin-bottom: 2rem;
+            }
+
+            button {
+                background-color: transparent;
+                border: 2px solid var(--white);
+                color: var(--white);
+                font-weight: 700;
+                padding: 0.75rem 2rem;
+                border-radius: 5px;
+                font-size: 1rem;
+                cursor: pointer;
+                transition: 300ms;
+            }
+
+            .fGreenMargin a:hover {
+                text-decoration: underline;
+            }
+
+            button:hover {
+                background-color: var(--gray);
+                color: var(--black);
+            }
+        }
+
+        .fImg {
+            max-width: 60%;
+            align-content: center;
+
+            img {
+                max-height: 100%;
+                max-width: 100%;
+            }
+        }
+    }
+}
+
+/* Second Section feature */
+.Features {
+    .grid {
+        display: grid;
+        grid-template-columns: repeat(6, 1fr);
+        gap: 0.5rem;
+
+        .card {
+            text-align: center;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 3px;
+            color: var(--gray);
+            align-content: center;
+            height: 200px;
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: 300ms;
+        }
+
+        .card:nth-child(1) {
+            background-image: url('./materials/landing_page/images/genres/trap@2x.png');
+        }
+
+        .card:nth-child(2) {
+            background-image: url('./materials/landing_page/images/genres/r-b-soul@2x.png');
+        }
+
+        .card:nth-child(3) {
+            background-image: url('./materials/landing_page/images/genres/drill@2x.png');
+        }
+
+        .card:nth-child(4) {
+            background-image: url('./materials/landing_page/images/genres/future_pop@2x.png');
+        }
+
+        .card:nth-child(5) {
+            background-image: url('./materials/landing_page/images/genres/emo_rap@2x.png');
+        }
+
+        .card:nth-child(6) {
+            background-image: url('./materials/landing_page/images/genres/latin_reggaeton@2x.png');
+        }
+
+        .card:nth-child(7) {
+            background-image: url('./materials/landing_page/images/genres/rap_hip_hop@2x.png');
+        }
+
+        .card:nth-child(8) {
+            background-image: url('./materials/landing_page/images/genres/afrobeat@2x.png');
+        }
+
+        .card:nth-child(9) {
+            background-image: url('./materials/landing_page/images/genres/indie_rnb.png');
+        }
+
+        .card:nth-child(7),
+        .card:nth-child(8),
+        .card:nth-child(9) {
+            grid-column: span 2
+        }
+
+        .card:hover {
+            background: linear-gradient(var(--gray), var(--gray));
+            color: var(--black);
+        }
+    }
+}
+
+/* Third section Designers */
+.Designers {
+    .grid {
+        display: grid;
+        grid-template-columns: repeat(6, 1fr);
+        gap: 0.5rem;
+
+        .card {
+            text-align: center;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 3px;
+            color: var(--gray);
+            align-content: center;
+            height: 200px;
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            filter: grayscale(90%);
+            border-radius: 5px;
+            cursor: pointer;
+            transition: 300ms;
+        }
+
+        .card:nth-child(1) {
+            background-image: url('./materials/landing_page/Film/tenet.jpg');
+        }
+
+        .card:nth-child(2) {
+            background-image: url('./materials/landing_page/Film/west-world.jpg');
+        }
+
+        .card:nth-child(3) {
+            background-image: url('./materials/landing_page/Film/the-revenant.png');
+        }
+
+        .card:nth-child(4) {
+            background-image: url('./materials/landing_page/Film/mad-max.jpg');
+        }
+
+        .card:nth-child(5) {
+            background-image: url('./materials/landing_page/Film/black-swan.jpg');
+        }
+
+        .card:nth-child(6) {
+            background-image: url('./materials/landing_page/Film/baby-driver.jpg');
+        }
+
+        .card:hover {
+            filter: grayscale(0%);
+            transform: scale(1.05);
+        }
+    }
+}
+
+/*Fourth section Producer  */
+.Producer {
+    .grid {
+        display: grid;
+        grid-template-columns: repeat(6, 1fr);
+        gap: 0.5rem;
+
+        .card {
+            background-color: var(--gray);
+            text-align: center;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 3px;
+            align-content: center;
+            height: 75px;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: 300ms;
+        }
+
+        .card:hover {
+            background-color: var(--white);
+        }
+    }
+}
+
+/* Fifth section License */
+.License {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .Details {
+        width: 100%;
+        padding-right: 10rem;
+
+        .mainTitle {
+            font-size: 3rem;
+            font-weight: 700;
+        }
+
+        .marginTitle {
+            margin: 2rem 0rem;
+            font-size: 1.25rem;
+            color: var(--margin-font-color);
+        }
+
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(6, 1fr);
+            gap: 0.5rem;
+
+            .card {
+                background-color: var(--gray);
+                text-align: center;
+                font-weight: 700;
+                text-transform: uppercase;
+                letter-spacing: 3px;
+                align-content: center;
+                height: 75px;
+                border-radius: 5px;
+                cursor: pointer;
+                transition: 300ms;
+            }
+
+            .card:nth-child(1) {
+                grid-area: 1 / 1 / 2 / 3;
+            }
+
+            .card:nth-child(2) {
+                grid-area: 1 / 3 / 2 / 5;
+            }
+
+            .card:nth-child(3) {
+                grid-area: 1 / 5 / 2 / 7;
+            }
+
+            .card:nth-child(4) {
+                grid-area: 2 / 1 / 3 / 4;
+            }
+
+            .card:nth-child(5) {
+                grid-area: 2 / 4 / 3 / 7;
+            }
+
+            .card:hover {
+                background-color: var(--white);
+            }
+        }
+    }
+
+    .licImg {
+        img {
+            max-height: 100%;
+            max-width: 100%;
+        }
+    }
+}
+
+/* Sixth section Platform */
+.Platform {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .Details {
+        width: 100%;
+        padding-left: 10rem;
+
+        .mainTitle {
+            font-size: 3rem;
+            font-weight: 700;
+        }
+
+        .marginTitle {
+            margin: 2rem 0rem;
+            font-size: 1.25rem;
+            color: var(--margin-font-color);
+        }
+
+        .cardSection {
+            display: flex;
+            justify-content: space-between;
+
+            .cardTitle {
+                font-weight: 700;
+                font-size: 2rem;
+                margin-bottom: 0.5rem;
+            }
+
+            .cardDetails {
+                font-size: 1rem;
+                color: var(--margin-font-color);
+            }
+        }
+    }
+
+    .pltImg {
+        img {
+            max-height: 100%;
+            max-width: 100%;
+        }
+    }
+}

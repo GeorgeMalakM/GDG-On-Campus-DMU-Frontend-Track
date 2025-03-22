@@ -19,7 +19,7 @@ Happy coding! 🚀
 
 - [View Task](Tasks/T3/)
 <details>
-  <summary>Show Web Preview</summary>
+  <summary>- Show Web Preview</summary>
   <img src="Tasks/T3/Web_photo.png" alt="Web Preview">
 </details>
 
@@ -27,7 +27,7 @@ Happy coding! 🚀
 
 - [View Task](Tasks/T4/)
 <details>
-  <summary>Show Web Preview</summary>
+  <summary>- Show Web Preview</summary>
   <img src="Tasks/T4/Overveiw.jpeg" alt="Web Preview">
 </details>
 
@@ -35,7 +35,7 @@ Happy coding! 🚀
 
 - [View Task](Tasks/T5/)
 <details>
-  <summary>Show Web Preview</summary>
-  <img src="Tasks/T5/assets/Screenshot_22-3-2025_18489_127.0.0.1.jpeg" alt="Web Preview">
+  <summary>- Show Web Preview</summary>
+  <img src="Tasks/T5/assets/Preview.jpeg" alt="Web Preview">
 </details>
   Let's create something awesome together! 🌟

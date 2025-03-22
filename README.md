@@ -18,15 +18,24 @@ Happy coding! 🚀
 ### Task 3: House Coffee
 
 - [View Task](Tasks/T3/)
-- ![Web Preview](Tasks/T3/Web_photo.png)
+<details>
+  <summary>Show Web Preview</summary>
+  <img src="Tasks/T3/Web_photo.png" alt="Web Preview">
+</details>
 
 ### Task 4 : Sound Nap
 
 - [View Task](Tasks/T4/)
-- ![Web Preview](Tasks/T4/Overveiw.jpeg)
+<details>
+  <summary>Show Web Preview</summary>
+  <img src="Tasks/T4/Overveiw.jpeg" alt="Web Preview">
+</details>
 
 ### Task 5 : Start Bootstrap
 
 - [View Task](Tasks/T5/)
-- ![Web Preview](Tasks/T5/assets/Screenshot_22-3-2025_18489_127.0.0.1.jpeg)
+<details>
+  <summary>Show Web Preview</summary>
+  <img src="Tasks/T5/assets/Screenshot_22-3-2025_18489_127.0.0.1.jpeg" alt="Web Preview">
+</details>
   Let's create something awesome together! 🌟

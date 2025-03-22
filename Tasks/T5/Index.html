@@ -1,0 +1,349 @@
+<!-- 
+    - Date : 21/3/2025
+    - Author : George Malak
+    - Description : This is a simple website template using HTML, CSS, and Bootstrap 5.3.0
+    - Under the supervision of : GDG On Campus Track Frontend Damanhour
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <meta charset="UTF-8">
+        <title>Start Bootstrap</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Start Bootstrap is a library of free to download Bootstrap themes and templates. Our themes are open source for any use, even commercial.">
+        <meta name = "Author" content="George Malak">
+        <!-- Favicon -->
+        <link rel="icon" type="image/x-icon" href="./assets/favicon.ico">
+        <!-- Font Awesome -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    
+        <!-- Bootstrap -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+        <!-- Custom CSS -->
+        <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- tempnav -->
+    <header class="fixed-top bg-white shadow-sm" >
+        <div class="container-fluid d-flex justify-content-between align-items-center p-2 border-bottom">
+            <a class="text-muted text-decoration-none">&larr; Overview Page</a>
+            <div class="d-flex align-items-center">
+                <button class="btn  rounded-circle icon-btn">
+                    <i class="fas fa-desktop"></i>
+                </button>
+                <button class="btn  rounded-circle icon-btn">
+                    <i class="fas fa-tablet-alt"></i>
+                </button>
+                <button class="btn btn-light rounded-circle icon-btn">
+                    <i class="fas fa-mobile-alt"></i>
+                </button>
+            </div>
+            <div class="d-flex align-items-center">
+                <button class="btn btn-light rounded-circle icon-btn">
+                    <a href="https://github.com/GeorgeMalakM/GDG-On-Campus-DMU-Frontend-Track" target="_blank">
+                    <img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt="GitHub" class="btn-img" >
+                    </a>
+                </button>
+                
+                <button class="dnld btn btn-light rounded-pill d-flex align-items-center download-btn">
+                    <i class="fas fa-arrow-down"></i> Free Download
+                </button>
+                <button class="btn-close" aria-label="Close" onclick="document.querySelector('header').style.display='none';"></button>
+            </div>
+        </div>
+    </header>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark" >
+        <div class="container">
+            <a class="navbar-brand">
+                <img src="./assets/img/navbar-logo.svg" alt="Dev's Company Logo">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#Portfolio">Portfolio</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#team">Team</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Intro -->
+    <section class="hero">
+        <h1>Welcome To Our Studio!</h1>
+        <h2>IT'S NICE TO MEET YOU</h2>
+        <a class="btn btn-lg mt-3">TELL ME MORE</a>
+    </section>
+    <!-- Services -->
+    <div id="services" class="container text-center my-5">
+        <h2 class="fw-bold">SERVICES</h2>
+        <p class="text-muted fst-italic">Lorem ipsum dolor sit amet consectetur.</p>
+        <div class="row mt-4">
+            <div class="col-md-4 text-center">
+                <div class="service-icon">
+                    <i class="fas fa-shopping-cart"></i>
+                </div>
+                <h4 class="service-title mt-3">E-Commerce</h4>
+                <p class="service-text">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.
+                </p>
+            </div>
+            <div class="col-md-4 text-center">
+                <div class="service-icon">
+                    <i class="fas fa-laptop"></i>
+                </div>
+                <h4 class="service-title mt-3">Responsive Design</h4>
+                <p class="service-text">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.
+                </p>
+            </div>
+            <div class="col-md-4 text-center">
+                <div class="service-icon">
+                    <i class="fas fa-lock"></i>
+                </div>
+                <h4 class="service-title mt-3">Web Security</h4>
+                <p class="service-text">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.
+                </p>
+            </div>
+        </div>
+    </div>
+    <!-- Portfolio -->
+    <div id="Portfolio" class="container text-center py-5" >
+        <h2 class="fw-bold">PORTFOLIO</h2>
+        <p class="text-muted">Lorem ipsum dolor sit amet consectetur.</p>
+        <div class="row g-4">
+            <div class="col-lg-4 col-md-6 col-12">
+                <div class="card border-0">
+                    <img src="./assets/img/portfolio/1.jpg" class="card-img-top img-fluid">
+                    <div class="card-body">
+                        <h5 class="fw-bold">Threads</h5>
+                        <p class="fst-italic text-muted">Illustration</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-12">
+                <div class="card border-0">
+                    <img src="./assets/img/portfolio/2.jpg" class="card-img-top img-fluid">
+                    <div class="card-body">
+                        <h5 class="fw-bold">Explore</h5>
+                        <p class="fst-italic text-muted">Graphic Design</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-12">
+                <div class="card border-0">
+                    <img src="./assets/img/portfolio/3.jpg" class="card-img-top img-fluid">
+                    <div class="card-body">
+                        <h5 class="fw-bold">Finish</h5>
+                        <p class="fst-italic text-muted">Identity</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-12">
+                <div class="card border-0">
+                    <img src="./assets/img/portfolio/4.jpg" class="card-img-top img-fluid">
+                    <div class="card-body">
+                        <h5 class="fw-bold">Lines</h5>
+                        <p class="fst-italic text-muted">Branding</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-12">
+                <div class="card border-0">
+                    <img src="./assets/img/portfolio/5.jpg" class="card-img-top img-fluid">
+                    <div class="card-body">
+                        <h5 class="fw-bold">Southwest</h5>
+                        <p class="fst-italic text-muted">Website Design</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-12">
+                <div class="card border-0">
+                    <img src="./assets/img/portfolio/6.jpg" class="card-img-top img-fluid">
+                    <div class="card-body">
+                        <h5 class="fw-bold">Window</h5>
+                        <p class="fst-italic text-muted">Photography</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- About -->
+    <div id="about" class="container mt-5" >
+        <h2 class="text-center fw-bold">ABOUT</h2>
+        <p class="text-center text-muted">Lorem ipsum dolor sit amet consectetur</p>
+        <!-- Time Line -->
+        <div class="timeline">
+            <!-- Item 1 -->
+            <div class="timeline-item odd">
+                <div class="content">
+                    <h5>2009-2011</h5>
+                    <h3><b>Our Humble Beginnings</b></h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                </div>
+                <div class="image">
+                    <img src="./assets/img/about/1.jpg" alt="Step 1">
+                </div>
+            </div>
+            <!-- Item 2 -->
+            <div class="timeline-item even">
+                <div class="content">
+                    <h5>March 2011</h5>
+                    <h3><b>An Agency is Born</b></h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                </div>
+                <div class="image">
+                    <img src="./assets/img/about/2.jpg" alt="Step 2">
+                </div>
+            </div>
+            <!-- Item 3 -->
+            <div class="timeline-item odd">
+                <div class="content">
+                    <h5>December 2015</h5>
+                    <h3><b>Transition to Full Service</b></h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                </div>
+                <div class="image">
+                    <img src="./assets/img/about/3.jpg" alt="Step 3">
+                </div>
+            </div>
+            <!-- Item 4 -->
+            <div class="timeline-item even">
+                <div class="content">
+                    <h5>July 2020</h5>
+                    <h3><b>Phase Two Expansion</b></h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                </div>
+                <div class="image">
+                    <img src="./assets/img/about/4.jpg" alt="Step 4">
+                </div>
+            </div>
+            <div class="timeline-item center-button">
+                <a class="circle-button">Be Part <br> of Our <br> Story!</a>
+            </div>
+        </div>
+    </div>
+    <!-- Our team -->
+    <div id="team" class="team-section" >
+        <h2 class="fw-bold">OUR AMAZING TEAM</h2>
+        <p class="text-muted">Lorem ipsum dolor sit amet consectetur.</p>
+        <div class="team-container">
+            <div class="team-member">
+                <img src="./assets/img/team/1.jpg" alt="Parveen Anand">
+                <h5 class="mt-3 fw-bold">Parveen Anand</h5>
+                <p class="fst-italic text-muted">Lead Designer</p>
+                <div class="social-icons">
+                    <a><i class="fa-brands fa-twitter"></i></a>
+                    <a><i class="fa-brands fa-facebook-f"></i></a>
+                    <a><i class="fa-brands fa-linkedin-in"></i></a>
+                </div>
+            </div>
+            <div class="team-member">
+                <img src="./assets/img/team/2.jpg" alt="Diana Petersen">
+                <h5 class="mt-3 fw-bold">Diana Petersen</h5>
+                <p class="fst-italic text-muted">Lead Marketer</p>
+                <div class="social-icons">
+                    <a><i class="fa-brands fa-twitter"></i></a>
+                    <a><i class="fa-brands fa-facebook-f"></i></a>
+                    <a><i class="fa-brands fa-linkedin-in"></i></a>
+                </div>
+            </div>
+            <div class="team-member">
+                <img src="./assets/img/team/3.jpg" alt="Larry Parker">
+                <h5 class="mt-3 fw-bold">Larry Parker</h5>
+                <p class="fst-italic text-muted">Lead Developer</p>
+                <div class="social-icons">
+                    <a><i class="fa-brands fa-twitter"></i></a>
+                    <a><i class="fa-brands fa-facebook-f"></i></a>
+                    <a><i class="fa-brands fa-linkedin-in"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-8 mx-auto text-center">
+                <p class="large text-muted">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, 
+                    laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde.
+                </p>
+            </div>
+        </div>
+    </div>
+    <!-- Our Partners  -->
+    <div class ="Company py-5">
+        <div class="container " id="companies">
+            <div class="row align-items-center ">
+                <div class="col-md-3 col-sm-6 my-3">
+                    <a href="#!"><img src="./assets/img/logos/microsoft.svg" class="img-fluid img-brand d-block mx-auto" alt="Microsoft"></a>
+                </div>
+                <div class="col-md-3 col-sm-6 my-3">
+                    <a href="#!"><img src="./assets/img/logos/google.svg" class="img-fluid img-brand d-block mx-auto" alt="Google"></a>
+                </div>
+                <div class="col-md-3 col-sm-6 my-3">
+                    <a href="#!"><img src="./assets/img/logos/facebook.svg" class="img-fluid img-brand d-block mx-auto" alt="Facebook"></a>
+                </div>
+                <div class="col-md-3 col-sm-6 my-3">
+                    <a href="#!"><img src="./assets/img/logos/ibm.svg" class="img-fluid img-brand d-block mx-auto" alt="IBM"></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Contact Box -->
+    <section id="contact" class="contact d-flex flex-column bg-dark p-5">
+        <center>
+            <h4 class="fw-bold mt-5 mb-2 text-center text-uppercase text-light">
+            Contact Us
+            </h4>
+            <p class="text-center services-p mb-3 text-secondary">
+            Lorem ipsum dolor sit amet consectetur.
+            </p>
+            <div class="d-flex flex-column flex-md-row w-75 justify-content-center">
+            <div class="d-flex flex-column" style="width: 100%;">
+                <div class="mb-3 mx-auto" style="width: 95%;">
+                <input type="text" class="form-control p-3" id="name" placeholder="Your Name*" required>
+                <input type="email" class="form-control p-3 mt-2" id="email" placeholder="Your Email*" required>
+                <input type="tel" class="form-control p-3 mt-2" id="phone" placeholder="Your Phone*" required>
+                </div>
+            </div>
+            <div class="mb-3" style="width: 100%;">
+                <textarea class="form-control" id="message" rows="9" placeholder="Enter message*" required></textarea>
+            </div>
+            </div>
+            <button type="button" class="btn btn-warning text-uppercase text-light mt-5 p-3 px-5" id="sendBtn">
+            Send Message
+            </button>
+        </center>
+        </section>
+        <!-- Footer -->
+        <footer class="footer text-center">
+        <br><br>
+        <div class="container">
+            <div class="row d-flex justify-content-between align-items-center">
+                <div class="col-md-4 text-md-start text-center">
+                    <p class="mb-0">Copyright © Your Website 2025</p>
+                </div>
+                <div class="col-md-4 my-2 my-md-0">
+                    <div class="social-icons d-flex justify-content-center">
+                        <a class="me-2"><i class="fab fa-twitter"></i></a>
+                        <a class="me-2"><i class="fab fa-facebook-f"></i></a>
+                        <a><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+                <div class="col-md-4 text-md-end text-center">
+                    <a href ="#" class="me-3">Privacy Policy</a>
+                    <a href ="#" class="me-3">Terms of Use</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- Bootstrap JS -->
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
